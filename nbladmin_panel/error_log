@@ -1,0 +1,6 @@
+[14-Jul-2014 10:36:39 America/Chicago] PHP Parse error:  syntax error, unexpected '$crud' (T_VARIABLE) in /home/nblbd/public_html/nbladmin_panel/application/controllers/exchange_info.php on line 36
+[04-Aug-2014 01:22:54 America/Chicago] PHP Fatal error:  Call to a member function set_query_str() on a non-object in /home/nblbd/public_html/nbladmin_panel/application/controllers/committee_info.php on line 32
+[04-Aug-2014 01:26:43 America/Chicago] PHP Fatal error:  Call to a member function set_query_str() on a non-object in /home/nblbd/public_html/nbladmin_panel/application/controllers/committee_info.php on line 32
+[04-Aug-2014 01:29:56 America/Chicago] PHP Fatal error:  Call to a member function set_query_str() on a non-object in /home/nblbd/public_html/nbladmin_panel/application/controllers/committee_info.php on line 32
+[04-Aug-2014 01:36:02 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nblbd/public_html/nbladmin_panel/application/controllers/committee_info.php on line 38
+[06-Oct-2014 23:42:31 America/Chicago] PHP Parse error:  syntax error, unexpected ''board'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/nblbd/public_html/nbladmin_panel/application/controllers/adminlogin.php on line 47

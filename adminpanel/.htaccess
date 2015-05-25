@@ -1,0 +1,11 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^adminpanel\.nblbd\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.adminpanel\.nblbd\.com$
+RewriteRule ^/?$ "http\:\/\/nblbd\.com\/nbladmin_panel\/index\.php\/adminlogin" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^adminpanel\.nbl\.com\.bd$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.adminpanel\.nbl\.com\.bd$
+RewriteRule ^/?$ "http\:\/\/nbl\.com\.bd\/nbladmin_panel\/index\.php\/adminlogin" [R=301,L]
+

@@ -1,0 +1,163 @@
+@media screen and (max-width: 1280px) {
+    .ind {
+        border: solid 1px red;
+    }
+    .art-sheet {
+        width: 75%;
+    }
+
+    /*.home-info-item {*/
+        /*margin-right: 40px;*/
+    /*}*/
+}
+
+@media screen and (max-width: 1000px) {
+    .ind {
+        border: solid 1px green;
+    }
+    .art-sheet {
+        width: 80%;
+    }
+    .art-content-layout .art-sidebar1 {
+        display: block;
+        width: 100%;
+    }
+    .art-content-layout .art-content {
+        display: block;
+        width: 100%;
+    }
+    .home-info-item {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .ind {
+        border: solid 1px blue;
+    }
+
+    .art-sheet {
+        width: 88%;
+    }
+
+    .art-content-layout .art-sidebar1 {
+        display: block;
+        width: 100%;
+    }
+
+    .art-content-layout .art-content {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .ind {
+        border: none;
+    }
+    .ind:before {
+        content: '740px';
+        height: 15px;
+    }
+    div.art-header-media {
+        display: none;
+    }
+
+    .home-info-item {
+        margin-right: 35px;
+        width: 35%;
+    }
+
+    .media-icon-hidden {
+        display: block;
+    }
+
+    div.art-header-logo {
+        display: block;
+        width: 100%;
+    }
+
+    .main-nav-hidden {
+        display: block;
+    }
+
+    .art-menu li {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+
+    .art-menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ind {
+        border: solid 1px yellow;
+    }
+    .ind:before {
+        content: '600px';
+        height: 15px;
+    }
+    .art-sheet {
+        width: 95%;
+    }
+    .nbl-logo {
+        width: 366px;
+        margin: 18px 0 0 5%;
+    }
+
+    .home-info-item {
+        margin-right: 2px;
+        width: 33%;
+    }
+
+    .img-content-left {
+        float: none;
+        width: calc(100% - 10px);
+        padding: 0;
+    }
+
+    .img-content-right {
+        float: none;
+        width: calc(100% - 20px);
+        margin: 0;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .ind {
+        border: solid 1px pink;
+    }
+    .art-sheet {
+        width: 90%;
+    }
+    .nbl-logo {
+        width: 280px;
+        margin: 25px 0 0 10px;
+    }
+    .home-info-item, .home-info-item:last-child {
+        width: 190px;
+        float: none;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .ind {
+        border: solid 1px #800080;
+    }
+    .art-sheet {
+        width: 98%;
+    }
+    .nbl-logo {
+        width: 95%;
+        margin: 35px 0 0 3%;
+    }
+    div.art-header-logo {
+        display: block;
+        width: 100%;
+    }
+}

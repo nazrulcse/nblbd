@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^quickpay\.nblbd\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.quickpay\.nblbd\.com$
+RewriteRule ^/?$ "https\:\/\/118\.179\.141\.140\/" [R=301,L]
+
