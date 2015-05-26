@@ -1,0 +1,44 @@
+/* Menu */
+
+.res-nav {
+    display: none;
+    background: #468000;
+}
+
+.res-menu
+{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: none;
+}
+
+.res-menu li {
+    padding: 0;
+    display: inline-block;
+}
+
+.res-menu li a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #dfdfdf;
+}
+
+.res-menu li a:hover {
+    background-color: #468055;
+}
+
+.res-menu li ul a {
+    border-bottom: solid 1px #ddd;
+}
+
+.res-menu li > ul {
+    display: none;
+    padding-left: 25px !important;
+}
+
+.res-menu .colleps-slide-menu {
+    background: rgba(0, 0, 0, 0) url("images/arrow_right.png") no-repeat scroll right center;
+}
