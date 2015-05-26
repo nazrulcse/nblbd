@@ -49,175 +49,50 @@ $(window).load(function() {
 <!-- Nivo Slider End 2nd part -->		
 								  
 										  
-<div class="cleared"></div>
 
-<div style="padding:10px">  
-                       
-<table width="100%" border="0">
-  
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+                                  <div class="sponsor-director">
+                                      <div class="sponsor">
+                                          <p align="left">BOARD OF DIRECTORS</p>
+                                          <hr align="left" width="100%" size="1" noshade="noshade" class="style8" />
+                                      </div>
+                                      <div class="cleared"></div>
+                                      <?php
+                                      $qu_com="select * from board where designation='Chairman' and active=1";
+                                      $result= mysql_query($qu_com) or die(mysql_error());
+                                      while($row = mysql_fetch_array($result))
+                                      {
+                                          ?>
 
-  
-  <tr>
-    <td colspan="3"><div align="center" class="style8">
-      <p align="left" class="style9">BOARD OF DIRECTORS</p>
-      <hr align="left" width="100%" size="1" noshade="noshade" class="style8" />
-      <p>&nbsp;</p>
-    </div>      
-      <div align="center"></div>    <div align="center"></div></td>
-    </tr>
-  
-  <p>&nbsp;</p>
-  
-  <?php
-  $qu_com="select * from board where designation='Chairman' and active=1";
-  $result= mysql_query($qu_com) or die(mysql_error());
-  while($row = mysql_fetch_array($result))
-    {
-  ?>
-  <tr>
-    <td width="33%">&nbsp;</td>
-    <td width="33%"><div align="center"><img src="nbladmin_panel/assets/img/director/<?php echo $row['image']; ?>" /></div><div><center><strong><?php echo $row['board_name'] ;?><br/><?php echo $row['designation'] ;?></strong></center></div></td>
-    <td width="33%">&nbsp;</td>
-  </tr>
- <?php
-}
-?> 
-  <tr>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-   <?php
-  $qu_com="select * from board where designation='Director' and active=1 order by pos_index LIMIT 0 , 3";
-  $result= mysql_query($qu_com) or die(mysql_error());
-  $i=1;
-  while($row = mysql_fetch_array($result))
-  {
-    
-  ?>
-     
-    <td width="33%"><div align="center"><img src="nbladmin_panel/assets/img/director/<?php echo $row['image']; ?>" /></div><div><center><strong><?php echo $row['board_name'] ;?><br/><?php echo $row['designation'] ;?></strong></center></div></td>
-  <?php
-   
-  }
-  ?> 
-  </tr>
-  <tr>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-  </tr>
-    <tr>
-   <?php
-  $qu_com="select * from board where designation='Director' and active=1 order by pos_index LIMIT 3 ,3 ";
-  $result= mysql_query($qu_com) or die(mysql_error());
-  $i=1;
-  while($row = mysql_fetch_array($result))
-  {
-    
-  ?>
-     
-    <td width="33%"><div align="center"><img src="nbladmin_panel/assets/img/director/<?php echo $row['image']; ?>" /></div><div><center><strong><?php echo $row['board_name'] ;?><br/><?php echo $row['designation'] ;?></strong></center></div></td>
-  <?php
-   
-  }
-  ?> 
-  </tr>
-  <tr>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-  </tr>
-   <tr>
-   <?php
-  $qu_com="select * from board where designation='Director' and active=1 order by pos_index LIMIT 6 ,3 ";
-  $result= mysql_query($qu_com) or die(mysql_error());
-  $i=1;
-  while($row = mysql_fetch_array($result))
-  {
-    
-  ?>
-     
-    <td width="33%"><div align="center"><img src="nbladmin_panel/assets/img/director/<?php echo $row['image']; ?>" /></div><div><center><strong><?php echo $row['board_name'] ;?><br/><?php echo $row['designation'] ;?></strong></center></div></td>
-  <?php
-   
-  }
-  ?> 
-  </tr>
-   <tr>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-   <?php
-  $qu_com="select * from board where designation in ('Independent Director','Director') and active=1 order by pos_index LIMIT 9 ,3 ";
-  $result= mysql_query($qu_com) or die(mysql_error());
-  $i=1;
-  while($row = mysql_fetch_array($result))
-  {
-    
-  ?>
-     
-    <td width="33%"><div align="center"><img src="nbladmin_panel/assets/img/director/<?php echo $row['image']; ?>" /></div><div><center><strong><?php echo $row['board_name'] ;?><br/><?php echo $row['designation'] ;?></strong></center></div></td>
-  <?php
-   
-  }
-  ?> 
-  </tr>
-   <tr>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
-  </tr>
-  <tr>
-   <?php
-  $qu_com="select * from board where designation in ('Independent Director','Managing Director(CC)','Managing Director') and active=1 order by pos_index LIMIT 2,3 ";
-  $result= mysql_query($qu_com) or die(mysql_error());
-  $i=1;
-  while($row = mysql_fetch_array($result))
-  {
-    
-  ?>
-     
-    <td width="33%"><div align="center"><img src="nbladmin_panel/assets/img/director/<?php echo $row['image']; ?>" /></div><div><center><a href="<?php echo $row['url'];?>"><strong><?php echo $row['board_name'] ;?><br/><?php echo $row['designation'] ;?></strong></a></center></div></td>
-  <?php
-   
-  }
-  ?> 
-  </tr> 
-</table>
-     </div>
+                                          <div style="width:100%;text-align: center;">
+                                              <img src="nbladmin_panel/assets/img/director/<?php echo $row['image']; ?>" />
+                                              <p><strong><?php echo $row['board_name'] ;?></strong></p>
+                                              <p><?php echo $row['designation'] ;?></p>
+                                          </div>
+
+                                      <?php
+                                      } ?>
+                                      <div class="cleared"></div>
+                                      <?php
+                                      $qu_com="select * from board where designation in ('Independent Director','Director','Managing Director(CC)','Managing Director') and active=1 order by pos_index ";
+                                      $result= mysql_query($qu_com) or die(mysql_error());
+                                      $i=1;
+                                      while($row = mysql_fetch_array($result))
+                                      {
+
+                                          ?>
+
+                                          <div class="director">
+                                              <img src="nbladmin_panel/assets/img/director/<?php echo $row['image']; ?>" />
+                                              <p><strong><?php echo $row['board_name'] ;?></strong></p>
+                                              <p><strong><?php echo $row['designation'] ;?></strong></p>
+                                          </div>
+                                      <?php
+
+                                      }
+
+                                      ?>
+                                      <div class="cleared"></div>
+                                  </div>
    </div>
  </div>
                          

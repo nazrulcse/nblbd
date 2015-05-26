@@ -44,17 +44,6 @@ include"page_top.php";
 					  //print_r($branch_qry);
 					  
 ?>
-
-
-
-<p>&nbsp;</p>
-<div align="left" style="padding-left:20px; font-size:18px; font-weight:bold; color:#009933; font-family:'Monotype Corsiva';">E-GP BRANCH LOCATION
-<hr align="left" width="98%" size="1" noshade="noshade" color="#009933"/>
-</div>
-<p>&nbsp;</p>
-
-
-
                               <div class="branch-list">
                                   <div align="left" style="padding-left:10px; margin-top: 10px; font-size:18px; font-weight:bold; color:#009933; font-family:'Monotype Corsiva';">E-GP BRANCH LOCATION  <?php echo strtoupper($branch_city) ?>
                                       <hr align="left" width="98%" size="1" noshade="noshade" color="#009933"/>
@@ -104,7 +93,7 @@ include"page_top.php";
                               </div>
 
 
-		<div style=" text-align:center; border:1px solid #CCCCCC; background:#E0DFE1; height:20px; width:615px; margin-left:20px; margin-top:20px; float:left;">
+		<div style=" text-align:center; border:1px solid #CCCCCC; background:#E0DFE1; height:20px; width:92%; margin-left:20px; margin-top:20px; float:left;">
 		<?PHP
         //This is the actual usage of function, It prints the paging links
         doPages(15, 'sl_e-gp.php?branch=e-gp'.$branch_city, '');

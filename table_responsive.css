@@ -23,7 +23,10 @@
         float: none;
         width: auto !important;
 }
-
+    .baddress{
+        float: none;
+        width: auto;
+    }
     .serial-data{
         float: none;
         width: auto;
@@ -43,7 +46,10 @@
         float: none;
         width: auto ;
 }
-
+    .baddress-data{
+        float: none;
+        width: auto ;
+    }
 .branch_info_header {
      float: none !important;
 }
