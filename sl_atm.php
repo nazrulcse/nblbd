@@ -29,84 +29,59 @@ include"page_top.php";
 						
 
 <?php
-
-					  
-					
-					 	$branch_city=$_GET['branch_type'];		  
-						
+					 	$branch_city=$_GET['branch_type'];
 					    $branch_info="select * from atm_location order by id asc";
 						$page_query="select count(*)  AS count_data from atm_location";
-						
-					  
 					  $branch_qry=getResultSet(15, 'sl_atm.php?branch=atm'.$branch_city, $branch_info,$page_query);
-					  
-					  
 ?>
+                              <div class="branch-list">
+                                  <div align="left" style="padding-left:10px; margin-top: 10px; font-size:18px; font-weight:bold; color:#009933; font-family:'Monotype Corsiva';">E-GP BRANCH LOCATION  <?php echo strtoupper($branch_city) ?>
+                                      <hr align="left" width="98%" size="1" noshade="noshade" color="#009933"/>
+                                  </div>
+                                  <table class="branch_loc">
+                                      <thead>
+                                      <tr style="width:100%;">
+                                          <th class="branch_info_header bcode" ><strong>BRANCE CODE</strong></th>
+                                          <th class="branch_info_header district" ><strong>BRANCH NAME</strong></th>
+                                          <th class="branch_info_header baddress" ><strong>DISTRICT</strong></th>
+                                      </tr>
+                                      </thead>
+                                      <tbody>
+                                      <?php
+                                      if (isset($_GET['page'])) {
+
+                                          if ($_GET['page'] > 1) {
+                                              $sl = ($_GET['page'] - 1) * 15 + 1;
+                                          }else
+                                              $sl=1;
+                                      }else {
+                                          $sl = 1;
+                                      }
+                                      while ($branch_show = mysql_fetch_assoc($branch_qry)) {
 
 
+                                          //	$branch_show= mysql_fetch_assoc( $branch_qry)
+                                          ?>
 
-<p>&nbsp;</p>
-<div align="left" style="padding-left:20px; font-size:18px; font-weight:bold; color:#009933; font-family:'Monotype Corsiva';">ATM LOCATION
-<hr align="left" width="612px" size="1" noshade="noshade" color="#009933"/>
-</div>
-
-
-<!-- <div style="border:solid 1px #e3d9b3; background-color:#999999; width:70px; height:20px; float:left; margin-right:2px; margin-left:2px;"><strong>SERIAL</strong></div> -->
-
-<div style="border:solid 1px #e3d9b3; background-color:#999999; width:100px; height:16px; float:left; margin-right:2px; margin-left:15px; padding-top:4px;"><strong>BRANCH NAME</strong></div>
-<div style="border:solid 1px #e3d9b3; background-color:#999999; width:100px; height:16px; float:left; margin-right:2px; margin-left:5px; padding-top:4px;"><strong>DISTRICT</strong></div>
-<div style="border:solid 1px #e3d9b3; background-color:#999999; width:400px; height:16px; float:left; margin-right:2px; margin-left:5px; padding-top:4px;"><strong>ADDRESS</strong></div>
-
-
-
-<?php 
-if(isset($_GET['page']))
-{
-
-if($_GET['page']>1)
-{
- $sl=($_GET['page']-1)*15+1;
- }else $sl=1;
-}else{
-$sl=1;
-}
-while($branch_show= mysql_fetch_assoc( $branch_qry))
-					  {
-					  
-					
-				
-			 
-?>
-
-
-<!-- <div style="border:solid 1px #e3d9b3; width:80px; height:20px; float:left; margin-right:2px; margin-left:20px; margin-top:5px; "><?php echo $sl;?></div> -->
-
-<div style="border:solid 1px #e3d9b3; width:100px; height:16px; float:left; margin-right:2px; margin-left:15px; margin-top:5px; padding-top:4px;"><?php echo  $branch_show['under_branch'] ?></div>
-<div style="border:solid 1px #e3d9b3; width:100px; height:16px; float:left; margin-right:2px; margin-left:5px; margin-top:5px; padding-top:4px;"><?php echo  $branch_show['district'] ?></div>
-<div align="left" style="border:solid 1px #e3d9b3; width:400px; height:16px; float:left; margin-right:2px; margin-left:5px; margin-top:5px; padding-top:4px;"><?php echo  $branch_show['address'] ?></div>
-
-<?php 
-$sl++;
-} 
-?>
-
-<p>&nbsp;</p>
-
-<br/><br/>
-		
+                                          <tr>
+                                              <td class="bcode-data"><?php echo $branch_show['under_branch']; ?></td>
+                                              <td class="district-data"><?php echo $branch_show['district'] ?></td>
+                                              <td class="baddress-data"><?php echo $branch_show['address'] ?></td>
+                                          </tr>
+                                          <?php
+                                          $sl++;
+                                      }
+                                      ?>
+                                      </tbody>
+                                  </table>
+                              </div>
 		<div style=" text-align:center; border:1px solid #CCCCCC; background:#E0DFE1; height:20px; width:620px; margin-left:15px; margin-top:20px; float:left;">
 		<?PHP
         //This is the actual usage of function, It prints the paging links
         doPages(15, 'sl_atm.php?branch=atm'.$branch_city, '');
 
     ?>
-	</div>  
-
-
-
-
-	
-								
+	</div>
 </div>
 
 <!-- Nivo Slider End 2nd part -->		
