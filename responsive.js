@@ -11,13 +11,25 @@ $(function() {
         }
     });
 
-    $('.main-nav-hidden').click(function() {
-        var menu = $('.art-menu');
+    $('.main-nav-hidden img').click(function() {
+        var menu = $('.res-menu');
         if(menu.is(':visible')) {
+            $(this).attr('src', 'images/collep.png');
             menu.slideUp();
         }
         else {
+            $(this).attr('src', 'images/cross_menu.png');
             menu.slideDown();
+        }
+    });
+
+    $('.colleps-slide-menu').click(function() {
+        var element = $(this).parents('li').find('ul').first();
+        if(element.is(':visible')) {
+            element.slideUp();
+        }
+        else {
+            element.slideDown();
         }
     });
 });

@@ -5,10 +5,6 @@
     .art-sheet {
         width: 75%;
     }
-
-    /*.home-info-item {*/
-        /*margin-right: 40px;*/
-    /*}*/
 }
 
 @media screen and (max-width: 1000px) {
@@ -77,17 +73,20 @@
         width: 100%;
     }
 
-    .main-nav-hidden {
+    .res-nav {
+        display: block !important;
+    }
+
+    .res-menu li {
         display: block;
     }
 
-    .art-menu li {
+    .res-menu li a {
         display: block;
-        width: 100%;
-        float: none;
+        border-bottom: solid 1px #ccc;
     }
 
-    .art-menu {
+    .art-nav {
         display: none;
     }
 }
@@ -125,6 +124,13 @@
         margin: 0;
         padding: 0 10px;
     }
+
+    .director{
+        clear: both;
+        display: inline-block;
+        float: none;
+        width: 49%;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -142,6 +148,13 @@
         width: 190px;
         float: none;
         margin: auto;
+    }
+
+    .director{
+        clear: both;
+        display: inline-block;
+        float: none;
+        width: 96%;
     }
 }
 
