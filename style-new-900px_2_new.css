@@ -1599,6 +1599,8 @@ img.image {
     width: 10.4%;
 }
 
+
+
 .bcode{
     background-color: #999999;
     float: left;
@@ -1612,6 +1614,47 @@ img.image {
     width: 40.4%;
 }
 
+.serial1{
+    background-color: #999999;
+    float: left;
+    width: 2.4%;
+    padding: 4px !important;
+}
+.bname1{
+    background-color: #999999;
+    float: left;
+    width: 28.4%;
+    padding: 4px !important;
+}
+
+.country{
+    background-color: #999999;
+    float: left;
+    width: 10.8%;
+    padding: 4px !important;
+}
+
+.city{
+    background-color: #999999;
+    float: left;
+    width: 10.8%;
+    padding: 4px !important;
+}
+
+
+.account{
+    background-color: #999999;
+    float: left;
+    width: 20.4%;
+    padding: 4px !important;
+}
+
+.swift{
+    background-color: #999999;
+    float: left;
+    width: 15.4%;
+    padding: 4px !important;
+}
 .district{
     background-color: #999999;
     float: left;
@@ -1649,14 +1692,133 @@ img.image {
 .baddress{
     background-color: #999999;
     float: left;
-    width: 56.3%;
+    width: 54.3%;
 
 }
 
 .baddress-data{
     border: 1px solid #e3d9b3;
     float: left;
+    width: 55.3%;
+    padding: 4px !important;
+}
+
+.bhouse{
+    background-color: #999999;
+    float: left;
+    width: 45.3%;
+    padding: 4px !important;
+
+}
+
+.bhouse-data{
+    border: 1px solid #e3d9b3;
+    float: left;
+    width: 45.3%;
+    padding: 4px !important;
+    min-height: 25px;
+}
+
+.otaddress{
+    background-color: #999999;
+    float: left;
     width: 56.3%;
+
+}
+
+.otaddress-data{
+    border: 1px solid #e3d9b3;
+    float: left;
+    width: 56.3%;
+}
+
+.otcountry{
+    background-color: #999999;
+    float: left;
+    width: 23.3%;
+
+}
+
+.otcountry-data{
+    border: 1px solid #e3d9b3;
+    float: left;
+    width: 23.3%;
+}
+
+.email{
+    background-color: #999999;
+    float: left;
+    width: 33.3%;
+    padding: 4px !important;
+
+
+}
+
+.email-data{
+    border: 1px solid #e3d9b3;
+    float: left;
+    width: 33.3%;
+    padding: 4px !important;
+    min-height: 25px;
+}
+
+.serial1-data{
+    border: 1px solid #e3d9b3;
+    float: left;
+    width: 2.4%;
+    padding: 4px !important;
+}
+
+.serial2-data{
+    border: 1px solid #e3d9b3;
+    float: left;
+    width: 2.4%;
+    padding: 4px !important;
+    min-height: 26px;
+}
+.bname1-data{
+    border: 1px solid #e3d9b3;
+    float: left;
+    width: 28.4%;
+    padding: 4px !important;
+    min-height: 26px;
+}
+
+.country-data{
+    border: 1px solid #e3d9b3;
+    float: left;
+    width: 10.8%;
+    padding: 4px !important;
+}
+
+.country1-data{
+    border: 1px solid #e3d9b3;
+    float: left;
+    width: 10.8%;
+    padding: 4px !important;
+    min-height: 26px;
+}
+
+.city-data{
+    border: 1px solid #e3d9b3;
+    float: left;
+    width: 10.8%;
+    padding: 4px !important;
+}
+
+
+.account-data{
+    border: 1px solid #e3d9b3;
+    float: left;
+    width: 20.4%;
+    padding: 4px !important;
+}
+
+.swift-data{
+    border: 1px solid #e3d9b3;
+    float: left;
+    width: 15.4%;
+    padding: 4px !important;
 }
 
 .cameraSlide .imgLoaded {

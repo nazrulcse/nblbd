@@ -50,6 +50,118 @@
         float: none;
         width: auto ;
     }
+
+    .serial1{
+        float: none;
+        width: auto;
+    }
+    .bname1{
+        float: none;
+        width: auto;
+    }
+
+    .country{
+        float: none;
+        width: auto;
+    }
+
+    .city{
+        float: none;
+        width: auto;
+    }
+
+
+    .account{
+        float: none;
+        width: auto;
+    }
+
+    .swift{
+        float: none;
+        width: auto;
+    }
+
+
+    .serial1-data{
+         float: none;
+         width: auto;
+     }
+
+    .serial2-data{
+        float: none;
+        width: auto;
+    }
+    .bname1-data{
+        float: none;
+        width: auto;
+    }
+
+    .country-data{
+        float: none;
+        width: auto;
+    }
+    .country1-data{
+        float: none;
+        width: auto;
+    }
+    .city-data{
+        float: none;
+        width: auto;
+    }
+
+
+    .account-data{
+        float: none;
+        width: auto;
+    }
+
+    .swift-data{
+        float: none;
+        width: auto;
+    }
+
+    .email-data{
+        float: none;
+        width: auto;
+        min-height: 14px !important;
+    }
+
+    .bhouse-data{
+        float: none;
+        width: auto;
+    }
+
+    .bhouse{
+        float: none;
+        width: auto;
+    }
+
+    .email{
+        float: none;
+        width: auto;
+    }
+
+    .otaddress{
+        float: none;
+        width: auto;
+
+    }
+
+    .otaddress-data{
+        float: none;
+        width: auto;
+    }
+
+    .otcountry{
+        float: none;
+        width: auto;
+
+    }
+
+    .otcountry-data{
+        float: none;
+        width: auto;
+    }
 .branch_info_header {
      float: none !important;
 }
