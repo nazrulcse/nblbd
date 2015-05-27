@@ -49,19 +49,16 @@
 
 @media screen and (max-width: 740px) {
     .ind {
-        border: none;
+        border-top: solid 1px #000000;
     }
-    .ind:before {
-        content: '740px';
-        height: 15px;
-    }
+
     div.art-header-media {
         display: none;
     }
 
     .home-info-item {
-        margin-right: 35px;
-        width: 35%;
+        margin-right: 15px;
+        width: calc(49% - 40px);
     }
 
     .media-icon-hidden {
@@ -77,6 +74,10 @@
         display: block !important;
     }
 
+    .art-nav {
+        display: none;
+    }
+
     .res-menu li {
         display: block;
     }
@@ -85,31 +86,19 @@
         display: block;
         border-bottom: solid 1px #ccc;
     }
-
-    .art-nav {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 600px) {
     .ind {
         border: solid 1px yellow;
     }
-    .ind:before {
-        content: '600px';
-        height: 15px;
-    }
+
     .art-sheet {
         width: 95%;
     }
     .nbl-logo {
         width: 366px;
         margin: 18px 0 0 5%;
-    }
-
-    .home-info-item {
-        margin-right: 2px;
-        width: 33%;
     }
 
     .img-content-left {
@@ -144,8 +133,9 @@
         width: 280px;
         margin: 25px 0 0 10px;
     }
+
     .home-info-item, .home-info-item:last-child {
-        width: 190px;
+        width: 90%;
         float: none;
         margin: auto;
     }

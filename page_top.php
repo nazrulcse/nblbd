@@ -809,7 +809,6 @@
                     <li>
                         <a href="javascript:void(0);" class='colleps-slide-menu'> CSR </a>
                         <ul>
-                            <li> <a href="csr_employment.php"> CSR </a> </li>
                             <li><a href="csr_employment.php">Employment</a></li>
                             <li><a href="csr_education.php">Education</a></li>
                             <li><a href="csr_sports.php">Sports & Cul. Activities</a></li>
