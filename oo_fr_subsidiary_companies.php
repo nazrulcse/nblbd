@@ -6,8 +6,7 @@ include"page_top.php";
   <style type="text/css" >
 	.branch_info_header{
 	float:left;
-	border:solid 1px #e3d9b3; background-color:#999999; height:16px; float:left; margin-right:2px; margin-left:5px; padding-top:4px;
-	
+
 	}
 	.branch_info_row
 	{
@@ -46,61 +45,55 @@ $branch_qry=getResultSet(15, 'oo_fr_subsidiary_companies.php?oo=exchange_house_o
 					  
 ?>
 
+                              <div class="branch-list">
+                                  <div align="left" style="padding-left:10px; margin-top: 10px; font-size:18px; font-weight:bold; color:#009933; font-family:'Monotype Corsiva';">CORRESPONDENT BANKING
+                                      <hr align="left" width="98%" size="1" noshade="noshade" color="#009933"/>
+                                  </div>
+                                  <table class="branch_loc">
+                                      <thead>
+                                      <tr style="width:100%;">
+                                          <th class="branch_info_header serial1"><strong>SL</strong></th>
+                                          <th class="branch_info_header country" ><strong>COUNTRY</strong></th>
+                                          <th class="branch_info_header bhouse" ><strong>EXCHANGE HOUSE NAME</strong></th>
+                                          <th class="branch_info_header email" ><strong>EMAIL</strong></th>
+                                      </tr>
+                                      </thead>
+                                      <tbody>
+                                      <?php
+                                      if(isset($_GET['page']))
+                                      {
+
+                                          if($_GET['page']>1)
+                                          {
+                                              $sl=($_GET['page']-1)*15+1;
+                                          }else $sl=1;
+                                      }else{
+                                          $sl=1;
+                                      }
+                                      while($branch_show= mysql_fetch_assoc( $branch_qry))
+                                      {
 
 
-<p>&nbsp;</p>
-<div align="left" style="padding-left:2px; font-size:18px; font-weight:bold; color:#009933; font-family:'Monotype Corsiva';">SUBSIDIARY COMPANIES
-<hr align="left" width="612px" size="1" noshade="noshade" color="#009933"/>
-</div>
+                                          //	$branch_show= mysql_fetch_assoc( $branch_qry)
 
+                                          ?>
 
-<div class="branch_info_header" style="width:20px;margin-left:2px;"><strong>SL</strong></div>
-<div class="branch_info_header" style="width:90px; margin-left:2px;"><strong>COUNTRY</strong></div>
+                                          <tr>
+                                              <td class="serial2-data"><?php echo $sl; ?></td>
+                                              <td class="country1-data"><?php echo $branch_show['ex_country'] ?></td>
+                                              <td class="bhouse-data"><a href="modal_fr_subsidiary.php?ex_code=<?php echo  $branch_show['ex_code'] ?>" rel="clearbox[width=550,height=200]"><?php echo  $branch_show['ex_name'] ?></a></td>
+                                              <td class="email-data"><?php echo $branch_show['ex_email'] ?></td>
 
-<div class="branch_info_header" style="width:300px;margin-left:2px;"><strong>EXCHANGE HOUSE NAME</strong></div>
+                                          </tr>
+                                          <?php
+                                          $sl++;
+                                      }
+                                      ?>
+                                      </tbody>
+                                  </table>
+                              </div>
 
-<div class="branch_info_header" style="width:210px;margin-left:2px;"><strong>E-MAIL</strong></div>
-
-
-<?php 
-if(isset($_GET['page']))
-{
-
-if($_GET['page']>1)
-{
- $sl=($_GET['page']-1)*15+1;
- }else $sl=1;
-}else{
-$sl=1;
-}
-while($branch_show= mysql_fetch_assoc( $branch_qry))
-					  {
-					  
-					
-	//	$branch_show= mysql_fetch_assoc( $branch_qry)				
-			 
-?>
-
-
-<div class="branch_info_row" style="width:20px; height:30px; margin-left:2px;  "><?php echo $sl;?></div>
-<div class="branch_info_row" style="width:90px; height:30px; margin-left:2px; "><?php echo  $branch_show['ex_country'] ?></div>
-
-<div class="branch_info_row" style="width:300px; height:30px;  margin-left:2px;">
-<a href="modal_fr_subsidiary.php?ex_code=<?php echo  $branch_show['ex_code'] ?>" rel="clearbox[width=550,height=200]"><?php echo  $branch_show['ex_name'] ?></a></div>
-
-<div class="branch_info_row" style="width:210px; height:30px;  margin-left:2px; "><?php echo  $branch_show['ex_email'] ?></div>
-
-
-<?php 
-$sl++;
-} 
-?>
-
-<p>&nbsp;</p>
-
-<br/><br/>
-		
-		<div style=" text-align:center; border:1px solid #CCCCCC; background:#E0DFE1; height:20px; width:640px; margin-left:2px; margin-top:20px; float:left;">
+		<div style=" text-align:center; border:1px solid #CCCCCC; background:#E0DFE1; height:20px; width:97%; margin-left:2px; margin-top:20px; float:left;">
 		<?PHP
         //This is the actual usage of function, It prints the paging links
         doPages(15, 'oo_fr_subsidiary_companies.php?oo=exchange_house_own', '');
