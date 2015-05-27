@@ -1789,6 +1789,7 @@ img.image {
     float: left;
     width: 10.8%;
     padding: 4px !important;
+    min-height: 26px;
 }
 
 .country1-data{
@@ -1804,6 +1805,8 @@ img.image {
     float: left;
     width: 10.8%;
     padding: 4px !important;
+    min-height: 26px;
+
 }
 
 
@@ -1812,6 +1815,7 @@ img.image {
     float: left;
     width: 20.4%;
     padding: 4px !important;
+    min-height: 26px;
 }
 
 .swift-data{
@@ -1819,6 +1823,7 @@ img.image {
     float: left;
     width: 15.4%;
     padding: 4px !important;
+    min-height: 26px;
 }
 
 .cameraSlide .imgLoaded {

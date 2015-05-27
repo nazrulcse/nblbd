@@ -81,7 +81,7 @@ include"page_top.php";
                                           ?>
 
                                           <tr>
-                                              <td class="serial1-data"><?php echo $sl; ?></td>
+                                              <td class="serial2-data"><?php echo $sl; ?></td>
                                               <td class="bname1-data"><?php echo $branch_show['corr_bank'] ?></td>
                                               <td class="country-data"><?php echo  $branch_show['corr_country'] ?></td>
                                               <td class="city-data"><?php echo  $branch_show['corr_city'] ?></td>
