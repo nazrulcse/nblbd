@@ -78,36 +78,19 @@ $(window).load(function() {
 <p class="style18">BENEFITS (CONDITION APPLY)</p>
 <p>&nbsp;</p>
 
-
-
-<table width="90%" border="0">
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%">No initial deposit is required to open the account.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Interest will be offered 1.75% for US Dollar Account , 3.00 % for EURO Account and 3.25% for GBP Account.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>They will get interest on daily product basis on the credit balance (minimum balance of US$ 1,000/- or GBP 500/- at least for 30 days) maintaining in the account.</td>
-  </tr>
-  
-</table>
-
+    <div style="width: 100%;">
+        <ul class="schedule_charge">
+            <li class="list-item">
+                No initial deposit is required to open the account.
+            </li>
+            <li class="list-item">
+                Interest will be offered 1.75% for US Dollar Account , 3.00 % for EURO Account and 3.25% for GBP Account.
+            </li>
+            <li class="list-item">
+                They will get interest on daily product basis on the credit balance (minimum balance of US$ 1,000/- or GBP 500/- at least for 30 days) maintaining in the account.
+            </li>
+        </ul>
+    </div>
 </td>
 </tr>
 

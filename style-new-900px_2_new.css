@@ -766,6 +766,7 @@ font-weight: normal;
   border: none !important;
   margin:0 !important;
   padding:0 !important;
+  display: flex;
 }
 /*.art-content-layout .art-content-layout{width: 855px;margin:0;}*/
 /*.art-content-layout .art-layout-cell, .art-content-layout .art-layout-cell .art-content-layout .art-layout-cell{display: table-cell;}*/
@@ -1388,12 +1389,14 @@ h2.art-postheader a:hover,  h2.art-postheader a.hovered
     vertical-align: top;
     display: inline-block;
     min-height: 415px;
+    float: right;
 }
 
 .art-content-layout .art-content {
-    width: calc(74% - 2px);
+    width: calc(74% + 2px);
     vertical-align: top;
     display: inline-block;
+    float: left;
 }
 
 .single-layout .art-content {
@@ -1450,7 +1453,6 @@ img.image {
 }
 
 .branch_loc {
-    border-right: 1px solid #ccc;
     margin: 0 10px;
     width: calc(100% - 20px) !important;
 }
@@ -1579,12 +1581,16 @@ img.image {
     width: 100%;
 }
 
-.director{
+.director {
     float: left;
     width: 32%;
     text-align: center;
     padding-bottom:  15px;
     padding-top:  15px;
+}
+
+.director img {
+    max-height: 180px;
 }
 
 .director p{
@@ -1671,7 +1677,8 @@ img.image {
     list-style: none;
 }
 
-.download_form_item {
+.download_form_item,
+.list-item {
     background: rgba(0, 0, 0, 0) url("images/postcommentsicon.png") no-repeat scroll left 5px !important;
     padding: 0 10px 15px 30px !important;
     text-align: left;
@@ -1698,4 +1705,16 @@ img.image {
     padding-left:10px;
     padding-right:10px;
     line-height:25px;
+}
+
+.powerSlide .wrapper {
+    width: calc(100% - 30px) !important;
+}
+
+.powerSlide .wrapper img {
+    width: calc(100% - 15px) !important;
+}
+
+.powerSlide .nav {
+    width: 100% !important;
 }

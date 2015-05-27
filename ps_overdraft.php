@@ -75,38 +75,19 @@ $(window).load(function() {
 <td style="padding:5px">
 <p>&nbsp;</p>
 <p class="style18">BENEFITS (CONDITION APPLY)</p>
-<p>&nbsp;</p>
-
-
-
-<table width="90%" border="0">
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%">Low charges in overdraft account maintenance.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>Facility is available against deposit receipt or mortgage property.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Low interest rate 13-16%.</td>
-  </tr>
-  
-</table>
-
+    <div style="width: 100%;">
+        <ul class="schedule_charge">
+            <li class="list-item">
+                Low charges in overdraft account maintenance.
+            </li>
+            <li class="list-item">
+                Facility is available against deposit receipt or mortgage property.
+            </li>
+            <li class="list-item">
+                Low interest rate 13-16%.
+            </li>
+        </ul>
+    </div>
 </td>
 </tr>
 

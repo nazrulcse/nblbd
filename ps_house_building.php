@@ -76,52 +76,23 @@ $(window).load(function() {
 <td style="padding:5px">
 <p>&nbsp;</p>
 <p class="style18">BENEFITS (CONDITION APPLY)</p>
-<p>&nbsp;</p>
 
-
-
-<table width="90%" border="0">
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%">Financing amount extends upto 70% or Tk. 75,00,000 which is highest of total consturction cost.
-</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Grace period avilable upto 9 months in flat purchase or 12 months in consturction.
-</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Competitive interest rate.
-</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> No application or processing fee.</td>
-  </tr>
-  
-  
-</table>
-
+    <div style="width: 100%;">
+        <ul class="schedule_charge">
+            <li class="list-item">
+                Financing amount extends upto 70% or Tk. 75,00,000 which is highest of total consturction cost.
+            </li>
+            <li class="list-item">
+                Grace period avilable upto 9 months in flat purchase or 12 months in consturction.
+            </li>
+            <li class="list-item">
+                Competitive interest rate.
+            </li>
+            <li class="list-item">
+                No application or processing fee.
+            </li>
+        </ul>
+    </div>
 </td>
 </tr>
 
@@ -130,19 +101,14 @@ $(window).load(function() {
 <td style="padding:5px">
 <p>&nbsp;</p>
 <p class="style18">ELIGIBILITY</p>
-<p>&nbsp;</p>
 
-
-
-<table width="90%" border="0">
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%">Any bangladeshi citizen or NRB, who is capable of repayment can apply for this loan.</td>
-  </tr>
-  
-  
-</table>
-
+    <div style="width: 100%;">
+        <ul class="schedule_charge">
+            <li class="list-item">
+                Any bangladeshi citizen or NRB, who is capable of repayment can apply for this loan.
+            </li>
+        </ul>
+    </div>
 </td>
 </tr>
 

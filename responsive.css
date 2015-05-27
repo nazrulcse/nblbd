@@ -14,6 +14,9 @@
     .art-sheet {
         width: 80%;
     }
+    .art-layout-cell, .art-content-layout-row {
+        display: block;
+    }
     .art-content-layout .art-sidebar1 {
         display: block;
         width: 100%;
@@ -86,6 +89,10 @@
         display: block;
         border-bottom: solid 1px #ccc;
     }
+
+    .powerSlide .wrapper {
+        height: 300px !important;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -145,6 +152,10 @@
         display: inline-block;
         float: none;
         width: 96%;
+    }
+
+    .powerSlide .wrapper {
+        height: 200px !important;
     }
 }
 

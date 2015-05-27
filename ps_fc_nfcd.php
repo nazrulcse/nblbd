@@ -79,36 +79,19 @@ $(window).load(function() {
 <p class="style18">BENEFITS (CONDITION APPLY)</p>
 <p>&nbsp;</p>
 
-
-
-<table width="90%" border="0">
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%"> NFCD Account can be opened for One month, Three months, Six months and One Year through US Dollar, Pound Starling, Japanese Yen and Euro.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>The initial minimum amount of $1000 or 500 Pound Starling or equivalent other designated currency.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>Interest is paid on the balance maintain in the Account. This interest is tax free in Bangladesh.</td>
-  </tr>
-  
-</table>
-
+    <div style="width: 100%;">
+        <ul class="schedule_charge">
+            <li class="list-item">
+                NFCD Account can be opened for One month, Three months, Six months and One Year through US Dollar, Pound Starling, Japanese Yen and Euro.
+            </li>
+            <li class="list-item">
+                The initial minimum amount of $1000 or 500 Pound Starling or equivalent other designated currency.
+            </li>
+            <li class="list-item">
+                Interest is paid on the balance maintain in the Account. This interest is tax free in Bangladesh.
+            </li>
+        </ul>
+    </div>
 </td>
 </tr>
 

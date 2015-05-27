@@ -63,44 +63,24 @@ $(window).load(function() {
 <p>&nbsp;</p>
 <p class="style17">TRANSACTION CHARGES</p>
 <hr align="left" width="100%" size="1" noshade="noshade" class="style8" />
-
-<p align="justify">
-<span class="style15"></span></p>
-<p>&nbsp;</p>
 </td>
 </tr>
 
 <tr width="100%" >
 <td style="padding:5px">
-
-<table width="90%" border="0">
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%"><a href="charges/CHARGESCHEDULEGBD.pdf">Schedule of charges for transactions relating to General Banking Business</a></td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%"><a href="charges/Draft_CHARGE SCHEDULE_OBU.pdf">Schedule of charges relating to offshore banking transaction</a></td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%"><a href="charges/DraftChargeScheduleFX.pdf">Schedule of charges for foreign exchange ransactions</a></td>
-  </tr>
-  
-</table>
-
+    <div style="width: 100%;">
+        <ul class="schedule_charge">
+            <li class="list-item">
+                Schedule of charges for transactions relating to General Banking Business
+            </li>
+            <li class="list-item">
+                Schedule of charges relating to offshore banking transaction
+            </li>
+            <li class="list-item">
+                Schedule of charges for foreign exchange ransactions
+            </li>
+        </ul>
+    </div>
 </td>
 </tr>
 

@@ -76,91 +76,34 @@ $(window).load(function() {
 <td style="padding:5px">
 <p>&nbsp;</p>
 <p class="style18">FINANCING AREA</p>
-<p>&nbsp;</p>
-
-
-
-<table width="90%" border="0">
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%"> Capital machinary.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>Different equipments.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>Gas, Diesel generator and Power plant.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>Medical equipments.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>Lift or elevator.</td>
-  </tr>
-
- <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Inroformantion Technology equipments.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Construction equipments.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Consumer durables.  </td>
-  </tr>
- 
-
-
-
-</table>
-
+    <div style="width: 100%;">
+        <ul class="schedule_charge">
+            <li class="list-item">
+                Capital machinary.
+            </li>
+            <li class="list-item">
+                Different equipments.
+            </li>
+            <li class="list-item">
+                Gas, Diesel generator and Power plant.
+            </li>
+            <li class="list-item">
+                Medical equipments.
+            </li>
+            <li class="list-item">
+                Lift or elevator.
+            </li>
+            <li class="list-item">
+                Inroformantion Technology equipments.
+            </li>
+            <li class="list-item">
+                Construction equipments.
+            </li>
+            <li class="list-item">
+                Consumer durables.
+            </li>
+        </ul>
+    </div>
 </td>
 </tr>
 
@@ -169,49 +112,23 @@ $(window).load(function() {
 <td style="padding:5px">
 <p>&nbsp;</p>
 <p class="style18">BENEFITS (CONDITION APPLY)</p>
-<p>&nbsp;</p>
 
-
-
-<table width="90%" border="0">
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%">Competitive monthly rental.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Tax benefit.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>Fast processing.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Easy handover after leasing period.</td>
-  </tr>
-  
-  
-</table>
-
+    <div style="width: 100%;">
+        <ul class="schedule_charge">
+            <li class="list-item">
+                Competitive monthly rental.
+            </li>
+            <li class="list-item">
+                Tax benefit.
+            </li>
+            <li class="list-item">
+                Fast processing.
+            </li>
+            <li class="list-item">
+                Easy handover after leasing period.
+            </li>
+        </ul>
+    </div>
 </td>
 </tr>
 

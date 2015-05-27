@@ -78,27 +78,16 @@ $(window).load(function() {
 <p class="style18">BENEFITS (CONDITION APPLY)</p>
 <p>&nbsp;</p>
 
-
-
-<table width="90%" border="0">
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%">Deposit of Tk.1,00,000/- and its multiple maximum of Tk 50,00,000/- shall be acceptable under this scheme.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>The account may be opened either singly or jointly.</td>
-  </tr>
-  
-  
-</table>
-
+    <div style="width: 100%;">
+        <ul class="schedule_charge">
+            <li class="list-item">
+                Deposit of Tk.1,00,000/- and its multiple maximum of Tk 50,00,000/- shall be acceptable under this scheme.
+            </li>
+            <li class="list-item">
+                The account may be opened either singly or jointly.
+            </li>
+        </ul>
+    </div>
 </td>
 </tr>
 

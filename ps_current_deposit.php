@@ -78,55 +78,25 @@ $(window).load(function() {
 <p class="style18">BENEFITS (CONDITION APPLY)</p>
 <p>&nbsp;</p>
 
-
-
-<table width="90%" border="0">
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%">Minimum maintenance charge half yearly Tk.400/-.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>Minimum balance Tk.2000.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>No hidden costs.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>Standing Instruction Arrangement are available for operating account.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Easy access to our other facilities.</td>
-  </tr>
-  
-</table>
+    <div style="width: 100%;">
+        <ul class="schedule_charge">
+            <li class="list-item">
+                Minimum maintenance charge half yearly Tk.400/-.
+            </li>
+            <li class="list-item">
+                Minimum balance Tk.2000.
+            </li>
+            <li class="list-item">
+                No hidden costs.
+            </li>
+            <li class="list-item">
+                Standing Instruction Arrangement are available for operating account.
+            </li>
+            <li class="list-item">
+                Easy access to our other facilities.
+            </li>
+        </ul>
+    </div>
 
 </td>
 </tr>

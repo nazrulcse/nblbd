@@ -41,10 +41,7 @@ include"page_top_fs.php";
 <!-- Nivo Slider Start 2nd part -->	
 						
 <div id="slider">
-		
 		<div align="justify">
- 
-
 <img src="images/financial_performance/capitalAd.jpg" title=" "/> 
 
 <img src="images/financial_performance/deposit.jpg" title=" " />
@@ -56,9 +53,6 @@ include"page_top_fs.php";
 <img src="images/financial_performance/loan.jpg" title=" " />
  
 <img src="images/financial_performance/remittance.jpg" title=" " />
-
-
-		  
         </div>
 </div>
 <script type="text/javascript" src="js_image_scroll/jquery.min.js"></script>

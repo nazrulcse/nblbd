@@ -77,104 +77,39 @@ $(window).load(function() {
 <p class="style18">BENEFITS (CONDITION APPLY)</p>
 <p>&nbsp;</p>
 
-
-
-<table width="90%" border="0">
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%">It is a Pre-paid Card.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Annual / Renewal Fee Tk. 200/- only.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> May be issued and refilled from RFCD/FC Account.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Accepted at all VISA POS merchants.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Cash withdrawl at all ATM booths bearing VISA and Q-cash logo(Except HSBC in Bangladesh).</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Drawing of Cash:</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>(i) from NBL ATMs - Free of charges </br>
-	    (ii) From ATMs under Q-cash network- Tk.10.00 per transaction </br>
-		(iii) From other ATM - Tk. 100.00 per transaction.
-	</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>Cash Withdrawl Fee(aboard)-2.00% on the cash drawn amount or US$2.00, whichever is higher.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Only 1% loading fee against both International and Local Power Card at the time of Refilling.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>Yearly Tk.100 for enrollment of SMS service.</td>
-  </tr>
-  
-  
-</table>
-
+    <div style="width: 100%;">
+        <ul class="schedule_charge">
+            <li class="list-item">
+                It is a Pre-paid Card.
+            </li>
+            <li class="list-item">
+                Annual / Renewal Fee Tk. 200/- only.
+            </li>
+            <li class="list-item">
+                May be issued and refilled from RFCD/FC Account.
+            </li>
+            <li class="list-item">
+                Accepted at all VISA POS merchants.
+            </li>
+            <li class="list-item">
+                Cash withdrawl at all ATM booths bearing VISA and Q-cash logo(Except HSBC in Bangladesh).
+            </li>
+            <li class="list-item">
+                (i) from NBL ATMs - Free of charges </br>
+                (ii) From ATMs under Q-cash network- Tk.10.00 per transaction </br>
+                (iii) From other ATM - Tk. 100.00 per transaction.
+            </li>
+            <li class="list-item">
+                Cash Withdrawl Fee(aboard)-2.00% on the cash drawn amount or US$2.00, whichever is higher.
+            </li>
+            <li class="list-item">
+                Only 1% loading fee against both International and Local Power Card at the time of Refilling.
+            </li>
+            <li class="list-item">
+                Yearly Tk.100 for enrollment of SMS service.
+            </li>
+        </ul>
+    </div>
 </td>
 </tr>
 

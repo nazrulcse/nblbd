@@ -63,36 +63,21 @@ $(window).load(function() {
 <p>&nbsp;</p>
 <p class="style17">CREDIT RATING</p>
 <hr align="left" width="100%" size="1" noshade="noshade" class="style8" />
-
-<p align="justify">
-<span class="style15"></span></p>
-<p>&nbsp;</p>
 </td>
 </tr>
 
 <tr width="100%" >
 <td style="padding:5px">
-
-<table width="90%" border="0">
-  
-<tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%"><a href="Credit_Rating2013/CreditRating2013.pdf" target="_blank">Credit Rating 2013</a></td>
-</tr>
-
-<tr>
-    <td  width="3%" height="20px"> </td>
-    <td width="97%" height="20px"> </td>
-</tr>
-
-<tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%"><a href="Bal_2010/Credit_Rating_2010.pdf" target="_blank">Credit Rating, June 2010</a></td>
-</tr>
-  
-    
-</table>
-
+    <div style="width: 100%;">
+        <ul class="schedule_charge">
+            <li class="list-item">
+                Credit Rating 2013
+            </li>
+            <li class="list-item">
+                Credit Rating, June 2010
+            </li>
+        </ul>
+    </div>
 </td>
 </tr>
 

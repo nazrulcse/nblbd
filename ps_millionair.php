@@ -76,36 +76,21 @@ $(window).load(function() {
 <td style="padding:5px">
 <p>&nbsp;</p>
 <p class="style18">BENEFITS (CONDITION APPLY)</p>
-<p>&nbsp;</p>
-
-
+    <div style="width: 100%;">
+        <ul class="schedule_charge">
+            <li class="list-item">
+                Deposit of fixed monthly amount for 5, 7 or 10 years. Deposit size will be based on tenure. Upon maturity the depositor will get Tk. 10,00,000/-.
+            </li>
+            <li class="list-item">
+                A person is allowed to open more than one MIS Account.
+            </li>
+            <li class="list-item">
+                The account may be opened either singly or jointly.
+            </li>
+        </ul>
+    </div>
 
 <table width="98%" border="0">
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%">Deposit of fixed monthly amount for 5, 7 or 10 years. Deposit size will be based on tenure. Upon maturity the depositor will get Tk. 10,00,000/-.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>A person is allowed to open more than one MIS Account.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>The account may be opened either singly or jointly.</td>
-  </tr>
-  
   <tr>
     <td  width="3%">&nbsp;</td>
     <td width="97%"><p>&nbsp;</p>

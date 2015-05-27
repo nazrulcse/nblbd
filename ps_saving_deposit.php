@@ -78,57 +78,25 @@ $(window).load(function() {
 <p class="style18">BENEFITS (CONDITION APPLY)</p>
 <p>&nbsp;</p>
 
-
-
-<table width="90%" border="0">
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%">Interest rate of 4.00% on minimum monthly balance.</td>
-  </tr>
-
-<tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>Minimum balance Tk.1000.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>Maintenance charge yealy Tk. 600.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>No hidden costs.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>Standing Instruction Arrangement are available for operating account.</td>
-  </tr>
-  
-  
-</table>
-
+<div style="width: 100%;">
+    <ul class="schedule_charge">
+        <li class="list-item">
+            Interest rate of 4.00% on minimum monthly balance.
+        </li>
+        <li class="list-item">
+            Minimum balance Tk.1000.
+        </li>
+        <li class="list-item">
+            Maintenance charge yealy Tk. 600.
+        </li>
+        <li class="list-item">
+            No hidden costs.
+        </li>
+        <li class="list-item">
+            Standing Instruction Arrangement are available for operating account.
+        </li>
+    </ul>
+</div>
 </td>
 </tr>
 

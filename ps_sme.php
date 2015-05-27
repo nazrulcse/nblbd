@@ -75,42 +75,20 @@ $(window).load(function() {
 <td style="padding:5px">
 <p>&nbsp;</p>
 <p class="style18">BENEFITS (CONDITION APPLY)</p>
-<p>&nbsp;</p>
 
-
-
-<table width="90%" border="0">
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%">Maximum Tk.3.00 lac (Festival Scheme) and Maximum Tk.5.00 lac (Small Business Scheme).
-</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>3 Months (Festival Scheme) and 5 years (including 1 month grace period (Small Business Scheme)).
-</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>  Collateral Free Advance.
-</td>
-  </tr>
-  
-    
-</table>
-
+    <div style="width: 100%;">
+        <ul class="schedule_charge">
+            <li class="list-item">
+                Maximum Tk.3.00 lac (Festival Scheme) and Maximum Tk.5.00 lac (Small Business Scheme).
+            </li>
+            <li class="list-item">
+                3 Months (Festival Scheme) and 5 years (including 1 month grace period (Small Business Scheme)).
+            </li>
+            <li class="list-item">
+                Collateral Free Advance.
+            </li>
+        </ul>
+    </div>
 </td>
 </tr>
 
@@ -119,18 +97,14 @@ $(window).load(function() {
 <td style="padding:5px">
 <p>&nbsp;</p>
 <p class="style18">ELIGIBILITY</p>
-<p>&nbsp;</p>
 
-
-
-<table width="90%" border="0">
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%">Any genuine and small businessmen/ entrepreneurs/enterprise having honesty, sincerity, and integrity.</td>
-  </tr>
-  
-  
-</table>
+    <div style="width: 100%;">
+        <ul class="schedule_charge">
+            <li class="list-item">
+                Any genuine and small businessmen/ entrepreneurs/enterprise having honesty, sincerity, and integrity.
+            </li>
+        </ul>
+    </div>
 
 </td>
 </tr>

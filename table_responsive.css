@@ -54,6 +54,10 @@
      float: none !important;
 }
 
+.branch_loc {
+    border-right: 1px solid #ccc;
+}
+
 /* Force table to not be like tables anymore */
 		 .cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
 	 * html .cf { zoom: 1; }
@@ -76,6 +80,4 @@
 	.branch_loc tbody tr { border-left: 1px solid #babcbf; }
 	.branch_loc th:last-child,
 	.branch_loc td:last-child { border-bottom: 1px solid #babcbf; }
-
-
 }
