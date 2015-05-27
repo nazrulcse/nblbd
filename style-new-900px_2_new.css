@@ -1623,7 +1623,7 @@ img.image {
 .bname1{
     background-color: #999999;
     float: left;
-    width: 28.4%;
+    width: 24.4%;
     padding: 4px !important;
 }
 
@@ -1637,7 +1637,7 @@ img.image {
 .city{
     background-color: #999999;
     float: left;
-    width: 10.8%;
+    width: 14.8%;
     padding: 4px !important;
 }
 
@@ -1779,7 +1779,7 @@ img.image {
 .bname1-data{
     border: 1px solid #e3d9b3;
     float: left;
-    width: 28.4%;
+    width: 24.4%;
     padding: 4px !important;
     min-height: 26px;
 }
@@ -1803,7 +1803,7 @@ img.image {
 .city-data{
     border: 1px solid #e3d9b3;
     float: left;
-    width: 10.8%;
+    width: 14.8%;
     padding: 4px !important;
     min-height: 26px;
 
