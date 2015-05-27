@@ -49,7 +49,18 @@ $(window).load(function() {
 								  
 										  
 <div class="cleared"></div>
-
+                                  <div class="board-director">
+                                      <div class="sponsor">
+                                          <p align="left">BOARD OF DIRECTORS</p>
+                                          <hr align="left" width="100%" size="1" noshade="noshade" class="style8" />
+                                      </div>
+                                      <div class="cleared"></div>
+                                      <div style="width:100%;text-align: center;">
+                                          <img src="images/board_directories/ZHSikder.jpg" />
+                                          <p><strong>Mr. Zainul Haque Sikder</strong></p>
+                                          <p><strong>Chairman</strong></p>
+                                      </div>
+                                      </div>
 <div style="padding:10px">  
                        
 <table width="100%" border="0">

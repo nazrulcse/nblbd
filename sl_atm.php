@@ -43,7 +43,7 @@ include"page_top.php";
                                       <tr style="width:100%;">
                                           <th class="branch_info_header bcode" ><strong>BRANCE CODE</strong></th>
                                           <th class="branch_info_header district" ><strong>BRANCH NAME</strong></th>
-                                          <th class="branch_info_header baddress" ><strong>DISTRICT</strong></th>
+                                          <th class="branch_info_header baddress" ><strong>ADDRESS</strong></th>
                                       </tr>
                                       </thead>
                                       <tbody>
@@ -75,7 +75,7 @@ include"page_top.php";
                                       </tbody>
                                   </table>
                               </div>
-		<div style=" text-align:center; border:1px solid #CCCCCC; background:#E0DFE1; height:20px; width:620px; margin-left:15px; margin-top:20px; float:left;">
+		<div style=" text-align:center; border:1px solid #CCCCCC; background:#E0DFE1; height:20px; width:92%; margin-left:15px; margin-top:20px; float:left;">
 		<?PHP
         //This is the actual usage of function, It prints the paging links
         doPages(15, 'sl_atm.php?branch=atm'.$branch_city, '');
