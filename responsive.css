@@ -91,7 +91,7 @@
     }
 
     .powerSlide .wrapper {
-        height: 300px !important;
+        height: 400px !important;
     }
 }
 
@@ -126,6 +126,10 @@
         display: inline-block;
         float: none;
         width: 49%;
+    }
+
+    .powerSlide .wrapper {
+        height: 275px !important;
     }
 }
 

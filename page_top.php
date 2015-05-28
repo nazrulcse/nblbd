@@ -605,7 +605,6 @@
 
                     <li><a href="fs_financial_performance.php"><span class="l"></span><span class="r"></span><span
                                 class="t">Financial Status</span></a>
-
                         <ul>
                             <li><a href="fs_annual_report.php">Annual Report</a></li>
                             <li><a href="fs_financial_performance.php">Financial Performance</a></li>
@@ -755,7 +754,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="fs_financial_performance.php"> Financial Status </a>
+                        <a href="javascript:void(0);" class="colleps-slide-menu"> Financial Status </a>
                         <ul>
                             <li><a href="fs_annual_report.php">Annual Report</a></li>
                             <li><a href="fs_financial_performance.php">Financial Performance</a></li>

@@ -9,6 +9,7 @@
 -->
     
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="target-densitydpi=device-dpi,initial-scale=1.0,width=device-width"/>
     <title>Welcome To National Bank Limited</title>
 
     <link rel="stylesheet" href="style-new-900px_2_new.css" type="text/css" media="screen" />
@@ -18,6 +19,7 @@
 
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="responsive.js"></script>
 
 
 
@@ -162,20 +164,20 @@ a:active {
                     </li>
 
                     <li>
-                        <a href="#" class='colleps-slide-menu'><span class="l"></span><span class="r"></span><span class="t">Products & Services</span></a>
+                        <a href="#" ><span class="l"></span><span class="r"></span><span class="t">Products & Services</span></a>
                         <ul>
-                            <li><a href="#" class='colleps-slide-menu'>Deposit Products</a>
+                            <li><a href="#" >Deposit Products</a>
                                 <ul>
                                     <li><a href="ps_saving_deposit.php">Savings Deposit</a></li>
                                     <li><a href="ps_current_deposit.php">Current Deposit</a></li>
-                                    <li><a href="#" class='colleps-slide-menu'>Term Deposit</a>
+                                    <li><a href="#" >Term Deposit</a>
                                         <ul>
                                             <li><a href="ps_snd.php">Special Notice Deposit</a></li>
                                             <li><a href="ps_fdr.php">Fixed Deposit</a></li>
                                         </ul>
                                     </li>
 
-                                    <li><a href="#" class='colleps-slide-menu'>Foreign Currency Deposit</a>
+                                    <li><a href="#" >Foreign Currency Deposit</a>
                                         <ul>
                                             <li><a href="ps_fc_rfcd.php">RFC Deposit</a></li>
                                             <li><a href="ps_fc_nfcd.php">NFC Deposit</a></li>
@@ -188,7 +190,7 @@ a:active {
                                 </ul>
                             </li>
 
-                            <li><a href="#" class='colleps-slide-menu'>Credit Products</a>
+                            <li><a href="#" >Credit Products</a>
                                 <ul>
                                     <li><a href="ps_overdraft.php">Overdraft</a></li>
                                     <li><a href="ps_lease_financing.php">Lease Financing</a></li>
@@ -200,7 +202,7 @@ a:active {
                                 </ul>
                             </li>
 
-                            <li><a href="#" class='colleps-slide-menu'>Cards</a>
+                            <li><a href="#" >Cards</a>
                                 <ul>
                                     <li><a href="credit_card.php">Credit Card</a></li>
                                     <li><a href="power_card.php">Power Card</a></li>
@@ -222,7 +224,7 @@ a:active {
                         <ul>
                             <li><a href="fs_annual_report.php">Annual Report</a></li>
                             <li><a href="fs_financial_performance.php">Financial Performance</a></li>
-                            <li><a href="#" class='colleps-slide-menu'>Interest Rates</a>
+                            <li><a href="#" >Interest Rates</a>
                                 <ul>
                                     <li><a href="deposit_int_rate.php">Deposit Rate</a></li>
                                     <li><a href="loan_int_rate.php">Lending Rate</a></li>
@@ -236,10 +238,10 @@ a:active {
 
 
                     <li>
-                        <a href="#" class='colleps-slide-menu'><span class="l"></span><span class="r"></span><span
+                        <a href="#" ><span class="l"></span><span class="r"></span><span
                                 class="t">Service Location</span></a>
                         <ul>
-                            <li><a href="#" class='colleps-slide-menu'>Branch Location</a>
+                            <li><a href="#" >Branch Location</a>
                                 <ul>
                                     <li><a href="branch_location.php?division=Dhaka">Dhaka</a></li>
                                     <li><a href="branch_location.php?division=Chittagong">Chittagong</a></li>
@@ -263,7 +265,7 @@ a:active {
                         <ul>
                             <li><a href="oo_contact.php">Contact Address</a></li>
                             <li><a href="oo_correspondent_banking.php">Correspondent Banking</a></li>
-                            <li><a href="#" class='colleps-slide-menu'>Foreign Remittance</a>
+                            <li><a href="#" >Foreign Remittance</a>
                                 <ul>
                                     <li><a href="oo_fr_subsidiary_companies.php">Subsidiary Companies</a></li>
                                     <li><a href="oo_fr_western_union.php">Western Union</a></li>
@@ -368,7 +370,7 @@ a:active {
                         </ul>
                     </li>
                     <li>
-                        <a href="fs_financial_performance.php"> Financial Status </a>
+                        <a  href="javascript:void(0);" class='colleps-slide-menu'> Financial Status </a>
                         <ul>
                             <li><a href="fs_annual_report.php">Annual Report</a></li>
                             <li><a href="fs_financial_performance.php">Financial Performance</a></li>
