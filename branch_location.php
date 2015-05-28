@@ -5,7 +5,7 @@ include"page_top.php";
 ?>	
 <style type="text/css" >
     .branch_info_header{
-        float:left;
+        /*float:left;*/
 
     }
     .branch_info_row

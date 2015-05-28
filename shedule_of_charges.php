@@ -35,20 +35,24 @@ include"page_top.php";
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
-    <div style=" width:100%;">
-        <ul class="schedule_charge">
-            <li class="schedule_charge_item">
-                <a href="download/shedule_of_charges/schedule_of_charges_GBD_NBL-CircularLetterNo.3516.pdf" target="_blank">
-                    Schedule of charges for transactions relating to "General Banking Business".
-                </a>
-            </li>
-            <li class="schedule_charge_item">
-                <a href="download/shedule_of_charges/shedule_of_charges_foreign_exchange_NBL-Circular-No-3467.pdf" target="_blank">
-                    Schedule of charges for transactions related to "Foreign Exchange & International Trade".
-                </a>
-            </li>
-        </ul>
-    </div>
+                              <div style=" width:100%;">
+                                  <ul class="schedule_charge">
+                                      <li class="schedule_charge_item">
+                                          <a href="download/shedule_of_charges/schedule_of_charges_GBD_NBL-CircularLetterNo.3516.pdf"
+                                             target="_blank">
+                                              Schedule of charges for transactions relating to "General Banking
+                                              Business".
+                                          </a>
+                                      </li>
+                                      <li class="schedule_charge_item">
+                                          <a href="download/shedule_of_charges/shedule_of_charges_foreign_exchange_NBL-Circular-No-3467.pdf"
+                                             target="_blank">
+                                              Schedule of charges for transactions related to "Foreign Exchange &
+                                              International Trade".
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
 </div>
 
 <!-- Nivo Slider End 2nd part -->

@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
     .director{
         clear: both;
         display: inline-block;
@@ -193,3 +193,4 @@
 	.branch_loc th:last-child,
 	.branch_loc td:last-child { border-bottom: 1px solid #babcbf; }
 }
+

@@ -72,7 +72,7 @@ include('admin_reqonce/db_con.php');
                     $dep_res = mysql_query($all_depo) or die(mysql_error());
 
                     ?>
-                    <div >
+                    <div  width="100%">
                     <table width="100%">
                         <tr width="100%">
                             <td style="padding:5px">
