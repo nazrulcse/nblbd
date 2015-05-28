@@ -46,7 +46,7 @@ include"page_top.php";
 
 <p>&nbsp;</p>
 <div align="left" style="padding-left:20px; font-size:18px; font-weight:bold; color:#009933; font-family:'Monotype Corsiva';">WESTERN UNION
-<hr align="left" width="612px" size="1" noshade="noshade" color="#009933"/>
+<hr align="left" width="100%" min-width="100px" size="1" noshade="noshade" color="#009933"/>
 </div>
 
 <p>&nbsp;</p>

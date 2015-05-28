@@ -77,25 +77,16 @@ $(window).load(function() {
 <p>&nbsp;</p>
 
 
-
-<table width="90%" border="0">
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%"> Electornics consumer products.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Computer or Computer acessories.</td>
-  </tr>
-  
- 
-</table>
+    <div style="width: 100%;">
+        <ul class="schedule_charge">
+            <li class="list-item">
+                Electornics consumer products.
+            </li>
+            <li class="list-item">
+                Computer or Computer acessories.
+            </li>
+        </ul>
+    </div>
 
 </td>
 </tr>
@@ -107,47 +98,22 @@ $(window).load(function() {
 <p class="style18">BENEFITS (CONDITION APPLY)</p>
 <p>&nbsp;</p>
 
-
-
-<table width="90%" border="0">
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%">Fast processing.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Competitive interest rate.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> No application or processing fee.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td>Easy monthly installment.</td>
-  </tr>
-  
-  
-</table>
-
+    <div style="width: 100%;">
+        <ul class="schedule_charge">
+            <li class="list-item">
+                Fast processing.
+            </li>
+            <li class="list-item">
+                Competitive interest rate.
+            </li>
+            <li class="list-item">
+                No application or processing fee.
+            </li>
+            <li class="list-item">
+                Easy monthly installment.
+            </li>
+        </ul>
+    </div>
 </td>
 </tr>
 

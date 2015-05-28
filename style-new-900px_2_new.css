@@ -1690,7 +1690,7 @@ img.image {
 .baddress-data{
     border: 1px solid #e3d9b3;
     width: 55.3%;
-    padding: 4px !important;
+    /*padding: 4px !important;*/
 }
 
 .bhouse{

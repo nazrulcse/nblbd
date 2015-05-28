@@ -41,15 +41,7 @@ $(window).load(function() {
     });
 });
 </script>
-
-	
-								
 </div>
-
-<!-- Nivo Slider End 2nd part -->		
-								  
-										  
-
                                   <div class="sponsor-director">
                                       <div class="sponsor">
                                           <p align="left">BOARD OF DIRECTORS</p>
@@ -95,7 +87,7 @@ $(window).load(function() {
                                   </div>
    </div>
  </div>
-                         
+
 <?php
 include"page_bottom.php";
 ?>							 

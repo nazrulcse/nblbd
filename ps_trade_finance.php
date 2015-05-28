@@ -78,39 +78,19 @@ $(window).load(function() {
 <p class="style18">BENEFITS (CONDITION APPLY)</p>
 <p>&nbsp;</p>
 
-
-
-<table width="90%" border="0">
-  <tr>
-    <td  width="3%"> <img src="images/postcommentsicon.png"/></td>
-    <td width="97%">Low interest rate 13.00%-14.50%.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Minimum processing time.</td>
-  </tr>
-  
-  <tr>
-    <td  width="3%">&nbsp;</td>
-    <td width="97%">&nbsp;</td>
-  </tr>
-  
-  <tr>
-    <td><img src="images/postcommentsicon.png"/></td>
-    <td> Low service charges.</td>
-  </tr>
-  
-  
-  
-  
-</table>
-
+    <div style="width: 100%;">
+        <ul class="schedule_charge">
+            <li class="list-item">
+                Low interest rate 13.00%-14.50%.
+            </li>
+            <li class="list-item">
+                Minimum processing time.
+            </li>
+            <li class="list-item">
+                Low service charges.
+            </li>
+        </ul>
+    </div>
 </td>
 </tr>
 
